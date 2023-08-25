@@ -3,7 +3,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 36px;
+  padding-bottom: 5px;
+  height: 31px;
   background: linear-gradient(#6A6A6A, #2E2E2E);
   margin-bottom: 0;
   margin-top: 0;
@@ -14,7 +15,7 @@
 
 .login > li > a {
   text-decoration: none;
-  font-size: smaller;
+  font-size: 94%;
   color: #DBD7D1;
   /* padding: 0 20px 0 0; */
   /* padding: 0px 20px 5px 0px; */
@@ -29,24 +30,23 @@
 .logo {
   margin-top: 0;
   background-color: #FFFACD;
-  height: 90px;
+  height: 100px;
 }
 
 .banner {
-  height: 90px;
+  height: 100px;
 }
 
 .advert {
   display: flex;
   justify-content: center;
-  align-self: ;
   background-color: #70695A;
-  height: 81px;
-  padding-top: 17px;
+  height: 90px;
+  padding-top: 20px;
 }
 
 .ad {
-  height: 81px;
+  height: 90px;
   transition-property: cursor;
 }
 
@@ -56,29 +56,29 @@
 
 
 .main-links {
-  height: 38px;
-  width: 695px;
+  height: 42px;
+  width: 784px;
   background: linear-gradient(#6A6A6A, #2E2E2E);
   display: inline-grid;
   padding: 0px;
-  grid-template-columns: 70px 83px 92px 105px 50%;
+  grid-template-columns: 76px 90px 100px 115px 50%;
   margin: 0;
   list-style: none;
   transition-property: color;
-  transition-property: background color cursor;
+  transition-property: background-color cursor;
 }
 
 .go-here {
   display: inline-flex;
   padding-top: 3px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 11px;
   color: #DBD7D1;
   background-color: transparent;
   border: none;
-  height: 38px;
+  height: 42px;
 }
 
 .go-here:hover {
