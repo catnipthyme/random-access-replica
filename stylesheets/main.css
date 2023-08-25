@@ -1,0 +1,47 @@
+main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #595959;
+  width: 200px
+}
+
+h2 {
+  background: linear-gradient(#FFCA52, #FC8D12);
+  height: 22px;
+  color: #70695A;
+  font-size: small;
+  padding-left: 9%;
+  /* padding-top: 5px; */
+  margin-bottom: 0;
+}
+
+#nadda {
+  font-size: 85%;
+  padding-left: 20px;
+}
+
+.donate-button {
+  width: 70%;
+  background-color: white;
+  border: 1px solid #818181;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 17px;
+}
+
+.thin-ad {
+  width: 100px;
+  margin-top: 12px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+
+}
+
+
+.content {
+  background-color: white;
+  border-right: 1px solid #2E2E2E;
+  box-shadow: inset -1px 0 .2em #2E2E2E;
+}

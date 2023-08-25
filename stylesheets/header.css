@@ -1,0 +1,88 @@
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 36px;
+  background: linear-gradient(#6A6A6A, #2E2E2E);
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style: none;
+  gap: 4px;
+  padding-right: 20px
+}
+
+.login > li > a {
+  text-decoration: none;
+  font-size: smaller;
+  color: #DBD7D1;
+  /* padding: 0 20px 0 0; */
+  /* padding: 0px 20px 5px 0px; */
+  transition-property: text-decoration, cursor;
+}
+
+.login > li > a:hover {
+  text-decoration: underline solid 1px #DBD7D1;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 0;
+  background-color: #FFFACD;
+  height: 90px;
+}
+
+.banner {
+  height: 90px;
+}
+
+.advert {
+  display: flex;
+  justify-content: center;
+  align-self: ;
+  background-color: #70695A;
+  height: 81px;
+  padding-top: 17px;
+}
+
+.ad {
+  height: 81px;
+  transition-property: cursor;
+}
+
+.ad:hover {
+  cursor: pointer;
+}
+
+
+.main-links {
+  height: 38px;
+  width: 695px;
+  background: linear-gradient(#6A6A6A, #2E2E2E);
+  display: inline-grid;
+  padding: 0px;
+  grid-template-columns: 70px 83px 92px 105px 50%;
+  margin: 0;
+  list-style: none;
+  transition-property: color;
+  transition-property: background color cursor;
+}
+
+.go-here {
+  display: inline-flex;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #DBD7D1;
+  background-color: transparent;
+  border: none;
+  height: 38px;
+}
+
+.go-here:hover {
+  color: #908d89;
+  cursor: pointer;
+  background: linear-gradient(#FFCA52, #FC8D12)
+}
